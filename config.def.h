@@ -5,14 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Font Awesome:pixelsize=14:antialias=true-autohint=true"
 	"Hack Nerd Font:pixelsize=14:antialias=true:autohint=true",
 };
 
-static int borderpx = 4;
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
